@@ -1,0 +1,8 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7ea70288-f00b-4afc-8875-9bf0134e97e8/resourceGroups/AppServiceQS-rg/providers/Microsoft.Web/sites/azuretestnodejs",
+    "appService.deploySubpath": ".",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
+}
