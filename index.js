@@ -4,6 +4,13 @@ const cors = require('cors');
 const app = express()
 const port = 8080
 
+let c = { greeting : 'Hey!'};
+let d;
+
+d=c;
+c.greeting = 'Hello';
+console.log(d.greeting);
+
 app.use(cors())
 app.use(express.json())
 
